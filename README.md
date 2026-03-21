@@ -1,2 +1,2 @@
 # league-counter-picker
-Takes input from users, return counter champions and some reasons from a nested dictionary.
+A simple Python tool that recommends the best counter pick based on the enemy champion. It uses a scoring system to evaluate matchups and provides reasons and tips for each recommendation.
