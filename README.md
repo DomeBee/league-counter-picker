@@ -13,7 +13,7 @@ My Aim:
 
 -Turn a simple script into a more complete tool over time
 
-v 1.0- Initial Version:
+v 1.0- Initial Version: 20th March 2026
 
 -Basic counter selection logic
 
