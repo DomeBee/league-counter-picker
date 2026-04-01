@@ -11,7 +11,7 @@ My Aim:
 
 -Gradually refactor code to be cleaner and more modular
 
--Turn a simple script into a more complete tool over time
+-Change from manual dictionary to a larger database.
 
 v 1.0- Initial Version: 20th March 2026
 
@@ -20,3 +20,9 @@ v 1.0- Initial Version: 20th March 2026
 -User input handling
 
 -Displays all counters and best pick
+
+v 2.0 - April 1st 2026
+
+-Cleaned up and made the code shorter
+
+- Displays Additional Top 3 Champions Options.
