@@ -1,0 +1,39 @@
+user_champion = input("What champion are you playing against? ")
+
+champions = {
+    "Jhin": {
+        "counters": {
+            "Ashe": {
+                "Reasons": "Longer range, stronger all-in, high kill pressure post-6.",
+                "Tips": "Take extended trades with your longer range. All-in whenever you have R."
+            },
+            "Caitlyn": {
+                "Reasons": "Longer range, lane dominance, stronger late game.",
+                "Tips": "Poke him out with your longer range. Outscale Jhin later."
+            }
+        }
+    }, "Lulu": {
+        "counters":{
+            "Nautilus":{
+                "Reasons": "Hard Engage, Gap Closes on Lulu, Strong CC.",
+                "Tips": "Look to engage on Lulu, Play with Bushes and secure scuttle priority early."
+            },
+            "Leona":{
+                "Reasons": "Strong Engage, Strong CC, Teamfight Presence.",
+                "Tips": "Engage on Lulu, Force her to use Utility on you. All-in Post 6."
+            }
+        }
+    }
+}
+
+print("Let me think for a moment...")
+
+if user_champion in champions:
+    counter_data = champions[user_champion]["counters"]
+
+    for counter_name, info in counter_data.items():
+        print(f"\nCounter pick: {counter_name}")
+        print(f"Reasons: {info['Reasons']}")
+        print(f"Tips: {info['Tips']}")
+else:
+    print("Champion not found.")
